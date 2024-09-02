@@ -1,1 +1,2 @@
-web: gunicorn 'flaskr:create_app()'
+web: gunicorn __init__:app
+
